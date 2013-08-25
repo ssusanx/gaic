@@ -1,0 +1,228 @@
+#container
+{
+	margin: 0 auto;
+	width: 900px;
+	background: #fff;
+}
+
+#header
+{
+	background: #ccc;
+	padding: 20px;
+	height: 60px;
+}
+
+#header h1 { 
+float:left;
+margin: 0; }
+
+#logo { 
+float: left;
+
+margin: 0; }
+
+#cart { 
+font: 13px Georgia, "Times New Roman", Times, serif;
+float: right;
+margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 900px;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #000; }
+
+#content-container
+{
+	float: right;
+	width: 900px;
+	background: #fff url(/wp-content/uploads/layout-two-fixed-background.gif) repeat-y 100% 0;
+}
+
+#content
+{
+	clear: right;
+	float: right;
+	width: 560px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	display: inline;
+}
+
+#content h2 { margin: 0; }
+
+#sidenav
+{
+	float: left;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	display: inline;
+	
+}
+
+
+#footer
+{
+	clear: both;
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+</style>
+<style type="text/css" media="screen">
+
+#sidenav {
+width: 12em;
+
+background: #efefef;
+}
+
+#sidenav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#sidenav a, #sidenav h3 {
+font: 13px Georgia, "Times New Roman", Times, serif;
+display: block;
+border-width: 1px;
+border-style: solid;
+border-color: #ccc #888 #555 #bbb;
+margin: 0;
+padding: 4px 3px;
+background: #efefef;
+}
+
+#sidenav h2 {
+color: #000;
+background: #efefef;
+}
+
+#sidenav a {
+color: #000;
+background: #efefef;
+text-decoration: none;
+}
+
+#sidenav a:hover {
+background: #003300;
+background: #fff;
+}
+
+#sidenav li {
+position: relative;
+}
+
+#sidenav ul ul ul {
+position: absolute;
+top: 0;
+left: 100%;
+width: 100%;
+}
+
+div#sidenav ul ul ul,
+div#sidenav ul ul li:hover ul ul
+{display: none;}
+
+div#sidenav ul ul li:hover ul,
+div#sidenav ul ul ul li:hover ul
+{display: block;}
+
+.roundtop {
+    background-image: url(rounded-top.jpg);
+    width: 315px;
+    height: 10px;
+    }
+.roundside {
+    background-image: url(rounded-sides.jpg);
+    background-repeat: repeat-y;
+    width: 315px;
+    text-align: center;
+}
+.roundbottom {
+    background-image: url(rounded-bottom.jpg);
+    width: 315px;
+    height: 120px;
+}
+div.img
+  {
+  margin:2px;
+  border:0px solid #0000ff;
+  height:150;
+  width: 315px;
+  float:left;
+  text-align:center;
+  }
+div.img img
+  {
+  display:inline;
+  margin:3px;
+  border:1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border:1px solid #0000ff;
+  }
+div.desc
+  {
+  text-align:center;
+  font-weight:normal;
+  width:120px;
+  height:90px;
+  margin:2px;
+  }
+  div.address_container
+  {
+  float: center;
+  width:620px;
+  height:150px;
+ }
+ div.address_container p{
+ float: center;
+ text-align:center;
+  font-weight:normal;
+  width:160px;
+  margin:2px;
+ }
+ div.address p
+  {
+  text-align:center;
+  font-weight:normal;
+  width:130px;
+  
+ }
+ 
+div.row
+  {
+  float:right;
+  width: 670px;
+  }
+

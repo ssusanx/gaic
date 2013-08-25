@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+#footer
+{
+	clear: both;
+	background: #ccc;
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+}
+#address {
+	float: left;
+	width: 100%;
+}
