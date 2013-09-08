@@ -1,4 +1,4 @@
-package gaicusa.web;
+package gaicusa.controller;
 
 
 import java.io.IOException;
