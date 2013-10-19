@@ -48,6 +48,7 @@ font: bold 0.7em/1.4em arial, helvetica, sans-serif;
 </head>
 <body>
 	<div id="container">
+	<c:import url="header.jsp" />
 		
 		<div id="navigation">
 			<ul>
@@ -158,5 +159,6 @@ font: bold 0.7em/1.4em arial, helvetica, sans-serif;
 
 			<c:import url="footer.jsp" />
 		</div>
+	</div>
 </body>
 </html>

@@ -7,6 +7,9 @@
 	background: #fff;
 }
 
+body{
+	background-color: #E0DCDC;
+}
 #header
 {
 	background: #fff;
@@ -76,7 +79,9 @@ margin: 0; }
 	width: 560px;
 	padding: 20px 0;
 	margin: 0 0 0 30px;
-	display: inline;
+	display: inline; 
+	background-color: #E0DCDC;
+
 }
 
 #content h2 { margin: 0; }
