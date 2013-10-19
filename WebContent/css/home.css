@@ -1,5 +1,7 @@
 #container
 {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 13px;
 	margin: 0 auto;
 	width: 900px;
 	background: #fff;
@@ -7,7 +9,7 @@
 
 #header
 {
-	background: #ccc;
+	background: #fff;
 	padding: 20px;
 	height: 60px;
 }
@@ -21,7 +23,9 @@ float: left;
 
 margin: 0; }
 
-
+#cart{
+	float: right;
+}
 
 #navigation
 {
@@ -65,7 +69,8 @@ margin: 0; }
 
 #content
 {
-	font: 13px Georgia, "Times New Roman", Times, serif;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 10px;
 	clear: right;
 	float: center;
 	width: 560px;
@@ -86,4 +91,19 @@ margin: 0; }
 	
 }
 
-
+#homeImages{
+	float: "right";
+}
+#imageTable
+{
+	width:600px;
+	padding: 5px 0;
+	float: center;
+}
+#imageTableLarge img{
+	width: 500px;
+}
+#imageTableLittle img{
+	width: 120px;
+	
+}

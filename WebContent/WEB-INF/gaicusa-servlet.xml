@@ -4,16 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
        
-       <bean name="/home.htm" class="gaicusa.web.homePageController">
+       <bean name="/home.htm" class="gaicusa.controller.homePageController">
        
        </bean>
-       <bean name="/categoryItems.htm" class="gaicusa.web.categoryItemsController">
+       <bean name="/categoryItems.htm" class="gaicusa.controller.categoryItemsController">
        
        </bean>
-       <bean name="/cart.htm" class="gaicusa.web.viewCartController">
+       <bean name="/cart.htm" class="gaicusa.controller.viewCartController">
        
        </bean>
-       <bean name="/addToCart.htm" class="gaicusa.web.addToCartController">
+       <bean name="/addToCart.htm" class="gaicusa.controller.addToCartController">
        
        </bean>
        

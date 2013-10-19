@@ -1,5 +1,8 @@
 @CHARSET "ISO-8859-1";
+
 #cartContent {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 13px;
 	clear: right;
 	float: left;
 	width: 620px;
@@ -7,12 +10,24 @@
 	margin: 0 0 0 30px;
 	display: inline;
 }
-#cart { 
-font: 13px Georgia, "Times New Roman", Times, serif;
-float: right;
-margin: 0; }
 
-#cartContent td{
-	padding:   0 10px;
+#cart {
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: 10px;
+	float: right;
+	margin: 0;
+}
+
+#cartContent td {
+	padding: 0 10px;
 	margin: 0px 0px 10px 15px;
+}
+
+#cartContent tr {
+	tr: nth-child(odd){ 
+	background-color:  #eee;
+	}
+	tr:nth-child(even) {
+	background-color: #fff;
+	}
 }

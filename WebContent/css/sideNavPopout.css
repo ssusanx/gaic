@@ -12,7 +12,8 @@ padding: 0;
 }
 
 #sidenav a, #sidenav h3 {
-font: 13px Georgia, "Times New Roman", Times, serif;
+font: Arial, Helvetica, sans-serif;
+font-size: 13px;
 display: block;
 border-width: 1px;
 border-style: solid;

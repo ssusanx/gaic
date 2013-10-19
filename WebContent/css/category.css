@@ -26,29 +26,3 @@ div.desc
   height:90px;
   margin:2px;
   }
-  div.address_container
-  {
-  float: center;
-  width:620px;
-  height:150px;
- }
- div.address_container p{
- float: center;
- text-align:center;
-  font-weight:normal;
-  width:160px;
-  margin:2px;
- }
- div.address p
-  {
-  text-align:center;
-  font-weight:normal;
-  width:130px;
-  
- }
- 
-div.row
-  {
-  float:right;
-  width: 670px;
-  }
