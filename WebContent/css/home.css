@@ -10,6 +10,7 @@
 body{
 	background-color: #E0DCDC;
 }
+
 #header
 {
 	background: #fff;
@@ -67,34 +68,24 @@ margin: 0; }
 {
 	float: right;
 	width: 900px;
-	background: #fff url(/wp-content/uploads/layout-two-fixed-background.gif) repeat-y 100% 0;
+	background: #efefef url(/wp-content/uploads/layout-two-fixed-background.gif) repeat-y 100% 0;
 }
 
 #content
 {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	font-size: 10px;
+	font-size: 12px;
 	clear: right;
-	float: center;
-	width: 560px;
+	float: right;
+	width: 700px;
 	padding: 20px 0;
-	margin: 0 0 0 30px;
+	margin: 0 10px 0 0;
 	display: inline; 
-	background-color: #E0DCDC;
-
+	background-color: #efefef;
 }
 
 #content h2 { margin: 0; }
 
-#sidenav
-{
-	float: left;
-	width: 240px;
-	padding: 20px 0;
-	margin: 0 20px 0 0;
-	display: inline;
-	
-}
 
 #homeImages{
 	float: "right";

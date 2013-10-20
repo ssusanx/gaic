@@ -134,30 +134,28 @@
 		<div id="content-container">
 			<c:import url="sidenav.jsp" />
 			<div id="content">
-				<table id="categoryItems" width="600px">
+				<table id="categoryItems" width="700px">
 					<tr>
-						<td id = "heading" align="center"><p align="center">Extra Strong Twist Tie Trash
-							Bags</p></td>
-
-					</tr>
-
-					<tr>
-						<td colspan="4"></td>
-						<td colspan="4"><p align="center">Description</p></td>
+						<td id="heading" align="center" colspan="2"><h2>Extra Strong Twist Tie Trash Bags</h2></td>
 					</tr>
 					<tr>
-						<td colspan="4" id="categoryItemsLargeImg"><a target="_blank" href="categoryItems.htm">
-								<img src="./image/sample_pic.jpg" width="315">
-						</a></td>
-						<td colspan="4">It all starts by allowing us to quote your
+						<td id="categoryItemsLargeImg" valign="top" rowspan="2">
+							<a target="_blank" href="categoryItems.htm"><img src="./image/sample_pic.jpg" width="315"></a>
+						</td>
+						<td align="center"><h3>Description</h3></td>
+					</tr>
+					<tr>
+						<td valign="top">It all starts by allowing us to quote your
 							packaging requirements. Through the discovery phase of quoting we
 							try to understand the exact film properties needed for your
 							packaging application. To get started just call 1-(626)350-5900
 							and one of our Flexible Packaging Experts will help you through
-							the quoting process.</td>
+							the quoting process.
+						</td>
 					</tr>
-
-					<tr background= "336699">
+				</table>
+				<table id="categoryItems" width="700px">
+					<tr bgcolor="336699" id="">
 						<td>Picture</td>
 						<td>Item #</td>
 						<td>Color</td>
