@@ -61,76 +61,7 @@ font: bold 0.7em/1.4em arial, helvetica, sans-serif;
 			</ul>
 		</div>
 		<div id="content-container">
-			<div id="sidenav">
-				<ul>
-					<li><h2>Product Categories</h2>
-						<ul>
-							<li><a href="" title="">Trash Bags</a>
-								<ul>
-									<li><a href="" title="">Ri-Pac® Drawstring Trash Bags</a></li>
-									<li><a href="" title="">Riptie® Trash Bags</a></li>
-									<li><a href="" title="">Extra Strong™ Twist Tie Trash
-											Bags</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Reclosable Zipper Bags</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Plastic Films</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Foils</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Pop-Up Sheets</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Containers</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC® Can Liners</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC® T-Shirt Bag</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul></li>
-				</ul>
-			</div>
+			<c:import url="sidenav.jsp" />
 			<div id="content">
 				<div id="homeImages">
 					<table id="imageTable">

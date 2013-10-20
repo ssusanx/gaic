@@ -1,5 +1,5 @@
 @CHARSET "ISO-8859-1";
-div.img
+#categoryItemsLargeImg img
   {
   margin:2px;
   border:0px solid #0000ff;
@@ -7,22 +7,27 @@ div.img
   width: 315px;
   float:left;
   text-align:center;
-  }
-div.img img
-  {
   display:inline;
   margin:3px;
   border:1px solid #ffffff;
   }
-div.img a:hover img
+  
+  #categoryItemsSmallImg img
+  {
+  margin:2px;
+  border:0px solid #0000ff;
+  height:50px;
+  width: 60px;
+  float:left;
+  text-align:center;
+  display:inline;
+  border:1px solid #ffffff;
+  }
+  
+#categoryItems img a:hover img
   {
   border:1px solid #0000ff;
   }
-div.desc
-  {
-  text-align:center;
-  font-weight:normal;
-  width:120px;
-  height:90px;
-  margin:2px;
-  }
+#heading{
+	align: center;
+}

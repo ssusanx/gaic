@@ -12,3 +12,17 @@
     width: 250px;
     margin-left: -100px;
 }
+
+#heading{
+	font-size: 18px;
+	align: center;
+}
+
+#description {
+	font-size: 14px;
+	align: center;
+}
+
+#real img{
+	width: 60px;
+}

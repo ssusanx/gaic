@@ -20,9 +20,12 @@
 
 #cartContent td {
 	padding: 0 10px;
-	margin: 0px 0px 10px 15px;
 }
 
+#itemDescription{
+	width: 60px;
+	
+} 
 #cartContent tr {
 	tr: nth-child(odd){ 
 	background-color:  #eee;

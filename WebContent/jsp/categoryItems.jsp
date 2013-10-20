@@ -120,18 +120,7 @@
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<div id="logo">
-				<img
-					src="http://www.gaicusa.com/wp-content/uploads/2012/07/logo.png" />
-			</div>
-			<div id="cart">
-				<a href="cart.htm"><img src="./image/Shopping-Cart.png" />View
-					Cart</a>
-			</div>
-
-
-		</div>
+		<c:import url="header.jsp" />
 		<div id="navigation">
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -143,93 +132,22 @@
 			</ul>
 		</div>
 		<div id="content-container">
-			<div id="sidenav">
-				<ul>
-					<li><h2>Product Categories</h2>
-						<ul>
-							<li><a href="" title="">Trash Bags</a>
-								<ul>
-									<li><a href="" title="">Ri-Pac Drawstring Trash Bags</a></li>
-									<li><a href="" title="">Riptie Trash Bags</a></li>
-									<li><a href="" title="">Extra Strong Twist Tie Trash
-											Bags</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Reclosable Zipper Bags</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Plastic Films</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac Aluminum Foils</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac Aluminum Pop-Up Sheets</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac Aluminum Containers</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC Can Liners</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC T-Shirt Bag</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul></li>
-						</ul></li>
-				</ul>
-			</div>
+			<c:import url="sidenav.jsp" />
 			<div id="content">
-				<table width="600px">
+				<table id="categoryItems" width="600px">
 					<tr>
-						<td colspan="8" align="center">Extra Strong Twist Tie Trash
-							Bags</td>
+						<td id = "heading" align="center"><p align="center">Extra Strong Twist Tie Trash
+							Bags</p></td>
 
 					</tr>
 
 					<tr>
 						<td colspan="4"></td>
-						<td colspan="4">Description</td>
+						<td colspan="4"><p align="center">Description</p></td>
 					</tr>
 					<tr>
-						<td colspan="4"><a target="_blank" href="categoryItems.htm">
-								<img
-								src="http://www.thewebsqueeze.com/wp-content/uploads/borders/rounded-corner-image.jpg"
-								alt="Klematis" width="315">
+						<td colspan="4" id="categoryItemsLargeImg"><a target="_blank" href="categoryItems.htm">
+								<img src="./image/sample_pic.jpg" width="315">
 						</a></td>
 						<td colspan="4">It all starts by allowing us to quote your
 							packaging requirements. Through the discovery phase of quoting we
@@ -239,9 +157,10 @@
 							the quoting process.</td>
 					</tr>
 
-					<tr style="background-color: 336699;">
+					<tr background= "336699">
 						<td>Picture</td>
 						<td>Item #</td>
+						<td>Color</td>
 						<td>Description</td>
 						<td>Unit/CS</td>
 						<td>CS/PLT</td>
@@ -250,13 +169,14 @@
 						<td></td>
 					</tr>
 					<%
-						for (int i = 1; i < 11; i++) {
+						for (int i = 1; i < 6; i++) {
 					%>
 					<tr id="real">
-						<td>Picture</td>
-						<td>3546657</td>
-						<td>Description 1</td>
-						<td>465</td>
+						<td id="categoryItemsSmallImg"><img src="./image/sample_pic_2.jpg" width="30px"></td>
+						<td>RH202206</td>
+						<td>NAT</td>
+						<td>HD 20X22X6MIC, 7GAL</td>
+						<td>2000</td>
 
 						<td>474</td>
 						<td>$45.60</td>

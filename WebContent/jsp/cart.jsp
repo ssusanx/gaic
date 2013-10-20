@@ -17,15 +17,7 @@
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<div id="logo">
-				<img
-					src="http://www.gaicusa.com/wp-content/uploads/2012/07/logo.png" />
-			</div>
-			<div id="cart">
-				<a href="cart.htm"><img src="Shopping-Cart.png" />View Cart</a>
-			</div>
-		</div>
+		<c:import url="header.jsp" />
 		<div id="navigation">
 			<ul>
 				<li><a href="#">Home</a></li>
@@ -36,84 +28,7 @@
 			</ul>
 		</div>
 		<div id="content-container">
-			<div id="sidenav">
-				<ul>
-					<li><h2>Product Categories</h2>
-						<ul>
-							<li><a href="" title="">Trash Bags</a>
-								<ul>
-									<li><a href="" title="">Ri-Pac® Drawstring Trash Bags</a></li>
-									<li><a href="" title="">Riptie® Trash Bags</a></li>
-									<li><a href="" title="">Extra Strong™ Twist Tie Trash
-											Bags</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Reclosable Zipper Bags</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Plastic Films</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Foils</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Pop-Up Sheets</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">Ri-Pac® Aluminum Containers</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC® Can Liners</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul>
-							<li><a href="" title="">GAiC® T-Shirt Bag</a>
-								<ul>
-									<li><a href="" title="">Sub Option 1</a></li>
-									<li><a href="" title="">Sub Option 2</a></li>
-									<li><a href="" title="">Sub Option 3</a></li>
-								</ul>
-							</li>
-						</ul></li>
-				</ul>
-			</div>
+			<c:import url="sidenav.jsp" />
 			<div id="cartContent">
 				<p>Your Shopping Cart</p>
 				<form name="cartForm" action="">
@@ -121,7 +36,8 @@
 						<tr>
 							<td></td>
 							<td>Item Number</td>
-							<td>Description</td>
+							<td>Picture</td>
+							<td id="itemDescription" >Description</td>
 							<td>Qty</td>
 							<td>Price</td>
 							<td>Total</td>
@@ -133,12 +49,13 @@
 						%>
 						<tr>
 							<td><c:out value="<%=i%>" /></td>
-							<td>123425</td>
-							<td>Item Descriptions fgsdhdfjhkjhjlfg fdgf hgfh</td>
+							<td><c:out value="<%=12345+ i%>" /></td>
+							<td><img src="./image/sample_pic_2.jpg" width="50px"></td>
+							<td width="100px">Item Descriptions insert a good description here</td>
 							<td><input type="text" size="6" id="qty<%=i%>"
 								name="qty<%=i%>" /></td>
 							<td>$10.00/pcs</td>
-							<td>$<%=(30.4 + i) %></td>
+							<td>$<%=(14 + i) %></td>
 							<td><input type="checkbox" name="remove<%=i%>"
 								value="remove" /></td>
 						</tr>
@@ -158,6 +75,7 @@
 				</form>
 			</div>
 			<c:import url="footer.jsp" />
+			</div>
 	</div>
 </body>
 </html>
